@@ -1,0 +1,1 @@
+{"result":{"text":"square root of a over b end root equals square root of fraction numerator x ∗ x over denominator y ∗ y end fraction end root equals square root of x over y ∗ x over y end root equals square root of x over y squared end root equals x over y equals fraction numerator square root of a over denominator square root of b end fraction"},"status":"ok"}
