@@ -1,0 +1,87 @@
+@page {
+    margin: 2%;
+}
+@media print {   
+    .print_button {
+        display: none !important;
+    }
+    table td {
+        font-size: 14px;
+    }
+
+    .panel .panel-body{
+        border: 0px !important;
+    }
+
+    .panel-heading {
+        display: none !important;
+    }
+}
+
+
+body { 
+    margin: 0; 
+    padding: 0;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 12px; 
+    color: black;
+}
+.container {
+    position: relative;
+}
+.header {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.print_button {
+    position:absolute;
+    top:30px;
+    right:0px;
+    padding-right: 15px;
+}
+.company_name {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+}
+.address {
+    font-size: 14px;
+}
+.contact {
+    font-size: 14px;
+}
+.project {
+    font-size: 14px;
+    text-decoration: underline;
+    margin: 15px auto;
+}
+.title {
+    font-size: 16px; 
+    font-weight: 600;
+    text-decoration: underline;
+    margin: 10px auto;
+}
+.ttp {
+    text-transform: uppercase;
+}
+table tr td, table tr th {
+    page-break-inside: avoid;
+}
+table thead tr>td{
+    font-weight:bold;
+}
+table td {
+    border:1px solid #ccc !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 2px !important;
+}
+table tr:first-child td {
+    font-weight: bold;
+}

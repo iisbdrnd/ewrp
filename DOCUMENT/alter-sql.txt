@@ -1,0 +1,5 @@
+ALTER TABLE `table_name` 
+ADD `created_at` TIMESTAMP NULL DEFAULT NULL  
+AFTER last_field,  
+
+ADD `created_by` INT(11) NOT NULL  AFTER `created_at`,  ADD `updated_at` TIMESTAMP NULL DEFAULT NULL  AFTER `created_by`,  ADD `updated_by` INT(11) NOT NULL  AFTER `updated_at`,  ADD `deleted_at` TIMESTAMP NULL DEFAULT NULL  AFTER `updated_by`,  ADD `deleted_by` INT(11) NOT NULL  AFTER `deleted_at`,  ADD `project_id` INT(11) NOT NULL  AFTER `deleted_by`,  ADD `valid` TINYINT(1) NOT NULL  AFTER `project_id`;
