@@ -1,0 +1,9 @@
+UPDATE ams_reminder_queue
+INNER JOIN ams_equipments_maintenance_index ON ams_reminder_queue.schedule_id =ams_equipments_maintenance_index.maintenance_schedule_id
+SET ams_reminder_queue.scheduled_maintanance_date =ams_equipments_maintenance_index.scheduled_maintanance_date
+
+
+
+UPDATE ams_reminder_queue
+INNER JOIN ams_equipments_maintenance_index ON ams_reminder_queue.schedule_id =ams_equipments_maintenance_index.maintenance_schedule_id
+SET ams_reminder_queue.maintenance_index_id =ams_equipments_maintenance_index.id
