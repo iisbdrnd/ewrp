@@ -1,1 +1,0 @@
-<div class="seqPaginate-pMeter"></div>
